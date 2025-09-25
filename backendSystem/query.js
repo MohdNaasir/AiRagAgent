@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Enable CORS with credentials
 app.use(cors({
-  origin: 'http://localhost:5173', // replace with your frontend URL
+  origin: 'https://ai-rag-agent-32z2.vercel.app', // replace with your frontend URL
   credentials: true
 }));
 

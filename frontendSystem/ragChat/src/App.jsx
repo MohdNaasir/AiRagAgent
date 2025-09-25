@@ -56,7 +56,7 @@ const App = () => {
     setIsLoading(true);
 
     try {
-       const response = await fetch('http://localhost:3000/ask', {
+       const response = await fetch('https://airagagent-3.onrender.com/ask', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       credentials: 'include', // ✅ allow cookies/auth headers

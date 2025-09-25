@@ -95,7 +95,7 @@ const App = () => {
   };
 
   const quickPrompts = [
-    " what is Binary Serach ",
+    " what is queue ",
     " what is Sorting ",
     " what is LinkList",
     " what is AVL Tree"
